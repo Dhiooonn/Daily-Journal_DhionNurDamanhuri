@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <!-- form login -->
                         <form method="POST" autocomplete="off">
                             <div class="mb-3">
-                                <label for="user" class="form-label">Nama</label>
+                                <label for="user" class="form-label">Username</label>
                                 <input type="text" class="form-control" id="user" name="user"
                                     placeholder="Enter your username" required autocomplete="off">
                             </div>
